@@ -1,0 +1,32 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/按钮1.png</file>
+        <file>res/围墙.png</file>
+        <file>res/边界.png</file>
+        <file>res/界面.png</file>
+        <file>res/老鼠 上.png</file>
+        <file>res/老鼠 下.png</file>
+        <file>res/老鼠 右.png</file>
+        <file>res/粮仓.png</file>
+        <file>res/老鼠 左.png</file>
+        <file>res/Road.jpg</file>
+        <file>res/胜利图标.png</file>
+        <file>res/失败图标.png</file>
+        <file>res/开始按键.png</file>
+        <file>res/开始界面.png</file>
+        <file>res/退出游戏1.png</file>
+        <file>res/结束界面.png</file>
+        <file>res/重新开始(1).png</file>
+        <file>res/退出游戏(1).png</file>
+        <file>res/开场动画1.gif</file>
+        <file>res/选择进入1.gif</file>
+        <file>res/数字老鼠入场.wav</file>
+        <file>res/选择进入.wav</file>
+        <file>res/开始界面_未进入.jpg</file>
+        <file>res/开始界面_已进入.jpg</file>
+        <file>res/maze_bg_music.wav</file>
+        <file>res/开始按键_无底.png</file>
+        <file>res/成功 叮咚.wav</file>
+        <file>res/游戏失败.wav</file>
+    </qresource>
+</RCC>

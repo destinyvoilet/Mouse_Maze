@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>modchoose</class>
+ <widget class="QDialog" name="modchoose">
+  <property name="windowModality">
+   <enum>Qt::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>鼠道难</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/res/老鼠1.jpg</normaloff>:/res/老鼠1.jpg</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-image: url(:/res/开始界面_已进入.jpg);</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>160</y>
+     <width>151</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;微软雅黑&quot;;
+border-image: url(:/res/按钮1.png);
+selection-background-color: rgb(176, 255, 251);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+
+</string>
+   </property>
+   <property name="text">
+    <string>简单</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>260</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;微软雅黑&quot;;
+border-image: url(:/res/按钮1.png);
+selection-background-color: rgb(176, 255, 251);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+
+</string>
+   </property>
+   <property name="text">
+    <string>中等</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>350</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;微软雅黑&quot;;
+border-image: url(:/res/按钮1.png);
+selection-background-color: rgb(176, 255, 251);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+
+</string>
+   </property>
+   <property name="text">
+    <string>困难</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>450</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::WheelFocus</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;微软雅黑&quot;;
+border-image: url(:/res/按钮1.png);
+selection-background-color: rgb(176, 255, 251);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+</string>
+   </property>
+   <property name="text">
+    <string>地狱</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>517</x>
+     <y>23</y>
+     <width>741</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>true</bool>
+   </property>
+   <property name="tabletTracking">
+    <bool>true</bool>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::CustomContextMenu</enum>
+   </property>
+   <property name="acceptDrops">
+    <bool>true</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/res/开始按键_无底.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>290</y>
+     <width>291</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>24</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 24pt &quot;微软雅黑&quot;;
+border-image: url(:/res/按钮1.png);
+selection-background-color: rgb(176, 255, 251);
+border:2px groove gray;border-radius:10px;padding:2px 4px;
+
+
+
+ 
+</string>
+   </property>
+   <property name="maxVisibleItems">
+    <number>15</number>
+   </property>
+   <property name="frame">
+    <bool>false</bool>
+   </property>
+   <item>
+    <property name="text">
+     <string>&lt;请选择时间&gt;</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2分钟</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3分钟</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>270</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_5">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>270</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_6">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>270</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_7">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>260</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_8">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>260</y>
+     <width>87</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>comboBox</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>comboBox_2</zorder>
+  <zorder>comboBox_3</zorder>
+  <zorder>comboBox_4</zorder>
+  <zorder>comboBox_5</zorder>
+  <zorder>comboBox_6</zorder>
+  <zorder>comboBox_7</zorder>
+  <zorder>comboBox_8</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
